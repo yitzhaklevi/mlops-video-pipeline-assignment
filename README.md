@@ -12,9 +12,13 @@ You are responsible for the **entire stack**, including:
 ## Requirements
 * **Language:** Python.
 * **Orchestration:** Apache Airflow.
-* **Delivery:** A standard \`docker-compose.yml\` that spins up the whole system.
-* **Input:** A video file placed in the \`input/\` folder.
-* **Output:** A processed video saved to the \`output/\` folder.
+* **Delivery:** A standard `docker-compose.yml` that spins up the whole system.
+* **Input:** A video file placed in the `input/` folder.
+* **Output:** A processed video saved to the `output/` folder.
+
+## Notes
+
+We encourage the use of AI-assisted tools for code development. However, you are fully responsible for the quality, correctness, and outcomes of the code.
 
 ## Recommended Tools
 You are free to use any suitable models or libraries, but the following are standard recommendations:
@@ -27,9 +31,9 @@ You are free to use any suitable models or libraries, but the following are stan
 We will be using the **MOT Video Data** from Kaggle.
 Run the initialization script to check for the data or attempt an automated download:
 
-\`\`\`bash
+```bash
 ./scripts/init_dataset.sh
-\`\`\`
+```
 
 *If the script cannot download automatically, it will provide a link for you to manually drop the file into the \`input/\` folder.*
 
@@ -52,7 +56,7 @@ This example serves as a reference implementation and can help you understand ho
 Forks are public by default, which means other candidates can see your solution.
 
 1.  Click the green **"Use this template"** button at the top right of this page and select **"Create a new repository"**.
-2.  Name your repository (e.g., \`video-pipeline-solution\`).
+2.  Name your repository (e.g., `video-pipeline-solution`).
 3.  **Crucial:** Set the visibility to **Private**.
 4.  Implement your solution in your new private repository.
 5.  When you are ready to submit, add **\`yitzhaklevi\`** as a collaborator (Settings -> Collaborators -> Add people).
@@ -60,5 +64,5 @@ Forks are public by default, which means other candidates can see your solution.
 
 ## Deliverables
 * Source code for your DAGs and scripts.
-* \`docker-compose.yml\` to run the environment.
-* \`README.md\` explaining how to run your solution.
+* `docker-compose.yml` to run the environment.
+* `README.md` explaining how to run your solution.
