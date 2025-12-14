@@ -33,6 +33,20 @@ Run the initialization script to check for the data or attempt an automated down
 
 *If the script cannot download automatically, it will provide a link for you to manually drop the file into the \`input/\` folder.*
 
+### 2. Example Notebook
+The repository includes an `example.ipynb` notebook that demonstrates the core functionality of the video processing pipeline:
+
+* **Video Processing:** Shows how to use `VideoProcessor` to load and extract frames from video files
+* **Pedestrian Detection:** Demonstrates `PedestrianDetectionModel` to detect pedestrians in video frames with bounding boxes
+* **Pose Estimation:** Illustrates `PoseEstimationModel` to estimate human pose keypoints for detected pedestrians
+
+The notebook provides a step-by-step walkthrough of:
+1. Loading a video frame
+2. Detecting pedestrians and visualizing bounding boxes
+3. Estimating pose keypoints for each detected person and overlaying them on the image
+
+This example serves as a reference implementation and can help you understand how to integrate the detection and pose estimation models into your pipeline.
+
 ## Submission Instructions
 **⚠️ IMPORTANT: DO NOT FORK THIS REPOSITORY**
 Forks are public by default, which means other candidates can see your solution.
